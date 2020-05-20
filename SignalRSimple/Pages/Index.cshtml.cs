@@ -22,10 +22,6 @@ namespace SignalRSimple.Pages
         {
 
         }
-        [HttpPost]
-        public void OnPost(ProductModel product)
-        {
-
-        }
+        
     }
 }

@@ -52,6 +52,7 @@ namespace SignalRSimple
             {
                 endpoints.MapRazorPages();
                 endpoints.MapHub<ChatHub>("/chatHub");
+                endpoints.MapHub<ChatGroup>("/chatGroup");
             });
         }
     }
